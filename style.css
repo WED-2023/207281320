@@ -155,7 +155,7 @@ h2.section-divider::after {
 {
 	display: block;
 	margin: auto;
-	transform: translateX(-85px);
+	transform: translateX(-105px);
 }
 
 .qr-container {
