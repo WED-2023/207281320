@@ -77,50 +77,91 @@
 
 <section id="spa" class="section">
   <h2 class="section-divider">Ans</h2>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+  <table class="web-table">
+    <thead>
+      <tr>
+        <th></th> 
+        <th>Web 1.0</th>
+        <th>Web 2.0</th>
+        <th>Web 3.0</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>חוויית משתמש</th>
+        <td>חוויה סטטית, אתרים פשוטים, תוכן לקריאה בלבד, ללא אינטראקציה.</td>
+        <td>חוויה אינטראקטיבית, תוכן דינמי, ממשקים עשירים, וניווט קל. אתרים לדוגמה: וויקיפדיה, יוטיוב ופייסבוק.</td>
+        <td>חוויה מבוססת בינה מלאכותית, התאמה אישית מתקדמת וזהות מבוזרת.</td>
+      </tr>
+      <tr>
+        <th>בעלות על הנתונים</th>
+        <td>נתונים נשלטים על ידי בעלי האתרים, ללא שליטה למשתמשים.</td>
+        <td>שליטה מרכזית של פלטפורמות ענק כמו גוגל, פייסבוק, אמזון. המידע נמצא בענן ואינו בבעלות המשתמש.</td>
+        <td>בעלות משתמש על נתונים דרך בלוקצ'יין, פרטיות משופרת, ושליטה על שיתוף נתונים.</td>
+        
+      </tr>
+      <tr>
+        <th>טכנולוגיה מרכזית</th>
+        <td>HTML, HTTP, URL, ושרתים בסיסיים.</td>
+        <td>JavaScript, AJAX, ממשקי API, ו-CSS מתקדם. טכנולוגיות אלו אפשרו דינמיות באתרים, אינטראקציה בזמן אמת, ועיצוב חזותי משופר.</td>
+        <td>בלוקצ'יין, חוזים חכמים, בינה מלאכותית, למידת מכונה, רשתות סמנטיות.</td>
+      </tr>
+      <tr>
+        <th>תרחיש שימוש: חיפוש שאילתה תופעות לוואי בתרופות</th>
+        <td>חיפוש בסיסי דרך קישורים או מדריכים כמו Yahoo. תוצאות מוגבלות לדפים סטטיים של אתרים רשמיים, ללא התאמה אישית או אינטראקטיביות.</td>
+        <td>חיפוש דרך מנועי חיפוש כמו גוגל, תוצאות כוללות מאמרים, פורומים וויקיפדיה</td>
+        <td>חיפוש מבוזר דרך מנועי בלוקצ'יין, התאמה אישית למשתמש על ידי בינה מלאכותית מה שכולל המלצות, תרופות דומות ועוד. </td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
 <section id="contact" class="section">
   <h2 class="section-divider">Contact Me</h2>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <form class="contact-form" action="https://formsubmit.co/dlyubansky@gmail.com" method="POST">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea id="message" name="Message" rows="6" placeholder="Your Message..." required></textarea>
+  
+    <div class="smiley-picker">
+      <label>Add a Smiley:</label>
+      <span class="smiley" onclick="addSmiley('😊')">😊</span>
+      <span class="smiley" onclick="addSmiley('😎')">😎</span>
+      <span class="smiley" onclick="addSmiley('👍')">👍</span>
+      <span class="smiley" onclick="addSmiley('😂')">😂</span>
+      <span class="smiley" onclick="addSmiley('❤️')">❤️</span>
+    </div>
+  
+    <button type="submit">Send</button>
+  </form>
+  <script>
+    function addSmiley(smiley) {
+      const messageField = document.getElementById("message");
+      messageField.value += smiley;
+      messageField.focus();
+    }
+  </script>
+  <!-- <form class="contact-form" action="mailto:lyubansd@post.bgu.ac.il" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <textarea id="message" name="message" rows="6" placeholder="Your Message..." required></textarea>
+    <div class="smiley-picker">
+      <label>Add a Smiley:</label>
+      <span class="smiley" onclick="addSmiley('😊')">😊</span>
+      <span class="smiley" onclick="addSmiley('😎')">😎</span>
+      <span class="smiley" onclick="addSmiley('👍')">👍</span>
+      <span class="smiley" onclick="addSmiley('😂')">😂</span>
+      <span class="smiley" onclick="addSmiley('❤️')">❤️</span>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+  <script>
+    function addSmiley(smiley) {
+      const messageField = document.getElementById("message");
+      messageField.value += smiley;
+      messageField.focus();
+    }
+  </script> -->
 </section>
 
 
