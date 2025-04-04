@@ -31,3 +31,4 @@ This website project began as a tribute to my grandfather, Vladimir Lyubansky. H
 Additional Notes:
 
 Clicking on the site’s logo will instantly scroll the user back to the top of the page.
+Check out the favicon.
