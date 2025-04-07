@@ -1,12 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/89IMDEJr)
 
 
-ID: 207281320
+**ID**: 207281320
 
-github.io link: https://wed-2023.github.io/207281320/
+**github.io link**: https://wed-2023.github.io/207281320/
 
 
-OVERVIEW
+***OVERVIEW***
 
 This website project began as a tribute to my grandfather, Vladimir Lyubansky. However imagination quickly took over.
 
@@ -29,7 +29,7 @@ This website project began as a tribute to my grandfather, Vladimir Lyubansky. H
  Contact Me - A contact form powered by Web3Forms that sends messages directly to my Gmail account.
  
 
-Additional Notes:
+***Additional Notes:***
 
 Clicking on the site’s logo will instantly scroll the user back to the top of the page.
 
